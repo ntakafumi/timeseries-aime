@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+tsaime/__init__.py
+tsaime/core.py
+tsaime/core.py.old.py
+tsaime.egg-info/PKG-INFO
+tsaime.egg-info/SOURCES.txt
+tsaime.egg-info/dependency_links.txt
+tsaime.egg-info/requires.txt
+tsaime.egg-info/top_level.txt

@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: tsaime
+Version: 0.1.0
+Summary: Time-Series AIME: Rolling AIME on top of aime-xai and pyEDM
+Author: Your Team
+License: Apply the The 2-Clause BSD License only for academic or research purposes, and apply Commercial License for commercial and other purposes.
+Requires-Python: >=3.8
+License-File: LICENSE.txt
+Requires-Dist: numpy>=1.21
+Requires-Dist: pandas>=1.3
+Requires-Dist: aime-xai>=0.1.0
+Requires-Dist: pyEDM>=1.14.0.2
+Dynamic: author
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
