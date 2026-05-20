@@ -1,4 +1,5 @@
 # Time-Series AIME (ts-AIME)
+[![DOI](https://zenodo.org/badge/1244102225.svg)](https://doi.org/10.5281/zenodo.20300938)
 
 **Time-Series AIME (ts-AIME)** combines the **S-Map** from **Empirical Dynamic Modeling (EDM)** with 
 **Approximate Inverse Model Explanations (AIME)** [oai_citation:0‡Approximate_Inverse_Model_Explanations_AIME_Unveiling_Local_and_Global_Insights_in_Machine_Learning_Models (8).pdf](file-service://file-3pLPafHrDkvQZCdyEPCKNg) to 
