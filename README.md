@@ -1,4 +1,6 @@
 # Time Series AIME (ts-AIME)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22638059.svg)](https://doi.org/10.5281/zenodo.22638059)
+
 
 **Time Series AIME (ts-AIME)** interprets time-series predictions through an approximate inverse mapping from forecast outputs to input features.
 It extends Approximate Inverse Model Explanations (AIME) to rolling time windows, characterizing how the feature patterns associated with predictions change over time.
@@ -10,7 +12,7 @@ The notebook analyzes joint 1-, 6-, and 24-hour forecasts to reconstruct meteoro
 - **Start here:** [Minimal working notebook](notebooks/tsAIME_minimal_example_v0_3_3.ipynb), with synthetic data and no downloads.
 - **PM2.5 workflow:** [v9.4 notebook](notebooks/tsAIME_APR_all_experiments_v9_4.ipynb).
 - **Software license:** [PolyForm Noncommercial 1.0.0](LICENSE.txt).
-- **Earlier releases:** [Zenodo archive](https://doi.org/10.5281/zenodo.20300938); see [Citation](#citation) for version-specific attribution.
+- **Earlier releases:** [Zenodo archive](https://doi.org/10.5281/zenodo.22638059); see [Citation](#citation) for version-specific attribution.
 
 ## Capabilities and repository layout
 
