@@ -1,0 +1,8 @@
+include CITATION.cff
+include LICENSE.txt
+include README.md
+include DATA_SOURCES.md
+recursive-include docs *.md
+prune notebooks
+prune tests
+prune tools

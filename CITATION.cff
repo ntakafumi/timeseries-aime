@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use ts-AIME, please cite the software and the associated article."
+title: "Time-Series AIME (ts-AIME)"
+type: software
+version: 0.3.3
+license: PolyForm-Noncommercial-1.0.0
+authors:
+  - family-names: Nakanishi
+    given-names: Takafumi
+  - family-names: Rasmequan
+    given-names: Suwanna
+  - family-names: Yookwan
+    given-names: Watcharaphong
+  - family-names: Chinnasarn
+    given-names: Krisana
+repository-code: "https://github.com/ntakafumi/timeseries-aime"
