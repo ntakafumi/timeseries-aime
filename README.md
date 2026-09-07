@@ -131,9 +131,20 @@ See the [theory guide](docs/THEORY.md) and [study-development guide](docs/COLLAB
 Within a calibration window, let $X\in\mathbb{R}^{n\times d}$ contain centered, column-standardized input states and $Y\in\mathbb{R}^{n\times q}$ contain the corresponding standardized forecast vectors.
 The vector-output operator solves
 
-$$\widehat A_\lambda=\arg\min_A \left\{n^{-1}\lVert X-YA^\top\rVert_F^2+\lambda\lVert A\rVert_F^2\right\},
-\qquad\widehat A_\lambda=S_{XY}(S_{YY}+\lambda I_q)^\dagger,$$
-
+$$
+\widehat A_\lambda
+=
+\arg\min_A
+\left\{
+n^{-1}\lVert X-YA^\top\rVert_F^2
++
+\lambda\lVert A\rVert_F^2
+\right\},
+\qquad
+\widehat A_\lambda
+=
+S_{XY}(S_{YY}+\lambda I_q)^\dagger.
+$$
 where $S_{XY}=X^\top Y/n$, $S_{YY}=Y^\top Y/n$, and $\dagger$ denotes the Moore-Penrose pseudoinverse.
 The implementation learns the means and scales from the calibration inputs and outputs and reuses them when reconstructing subsequent inputs.
 
